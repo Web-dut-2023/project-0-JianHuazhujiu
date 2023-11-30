@@ -1,0 +1,86 @@
+/* label is an inline element, width only applies to
+block elements, so need to use display inline-block
+this way it stays inline but takes the properties of a block
+*/
+
+label {
+  width: 200px;
+  display: inline-block;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+header nav li {
+list-style: none;
+margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* input[type="submit"] {
+  background: #4d90fe;
+  border-radius: 2px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin: 10px;
+  font-size: 11px;
+  height: 30px;
+  min-width: 120px;
+  font-weight: bold;
+
+} */
+
+.text_input {
+  border: 1px solid #d9d9d9;
+  margin-top: 10px;
+  padding: 3px;
+ 
+
+}
+
+.search_keyword {
+  border-radius: 20px;
+  height: 36px;
+  font-size: 16px;
+  padding-left: 50px;
+
+}
+
+/* input[type="text"] {
+  margin-top: 10px;
+
+} */
+.logo {
+  text-align: center;
+}
+
+.advanced_button {
+  background: #4d90fe;
+  border-radius: 2px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin-top: 10px;
+  margin-left:515px;
+  font-size: 11px;
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+  justify-content: flex-end;
+
+}

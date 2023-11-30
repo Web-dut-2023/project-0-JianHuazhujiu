@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        section header {
+          display: flex;
+          justify-content: flex-end;
+          width: 100%;
+        }
+        section header ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+      section header li {
+        list-style: none;
+        margin-left: 15px;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
+      
+      .different_button {
+          background-color: #f8f9fa;
+          border: 1px solid #f8f9fa;
+          /* border: 1px solid #dadce0; */
+          border-radius: 4px;
+          color: #3c4043;
+          font-family: arial,sans-serif;
+          font-size: 14px;
+          margin: 11px 4px;
+          padding: 0 16px;
+          line-height: 27px;
+          height: 36px;
+          min-width: 54px;
+          text-align: center;
+          cursor: pointer;
+          user-select: none;
+      }
+      .search_form {
+        text-align: center;
+      }
+
+        </style>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="image.html">Images</a></li>
+            <li><a href="advanced.html">Advanced Search</a></li>
+          </ul>
+        </nav>
+      </header>
+<div class="logo">
+<img src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="15%">
+</div>
+      <!-- You need to put a name and a value for your submit
+      button when you have more than one in your form  -->
+      <div class="search_form">
+        <form method="get" action="https://google.com/search">
+            <input class="text_input search_keyword" type="text" name="q" size="60">
+            <div >
+            <input type="submit" name="btnK" value="Google Search" class="button different_button">
+              <input type="submit" name="btnI" value="I am Feeling Lucky" class="button different_button">
+            </div>
+        </form>
+      </div>
+
+
+    </body>
+</html>
